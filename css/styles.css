@@ -437,10 +437,10 @@ select {
    ========================================================================== */
 .hero {
   position: relative;
-  min-height: 100svh;
+  min-height: min(100svh, 860px);
   display: flex;
   align-items: center;
-  padding-block: calc(var(--header-height) + 2.8rem) 4rem;
+  padding-block: calc(var(--header-height) + 1.8rem) 2.6rem;
   color: var(--ivory-50);
   background-color: var(--navy-950);
   overflow: hidden;
@@ -492,29 +492,29 @@ select {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.95rem;
 }
 
 .hero-crest {
-  width: clamp(86px, 11vw, 112px);
-  height: clamp(86px, 11vw, 112px);
+  width: clamp(74px, 9vw, 96px);
+  height: clamp(74px, 9vw, 96px);
   filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.45));
 }
 
 .hero-eyebrow {
   font-family: var(--font-display);
-  font-size: clamp(0.92rem, 1.4vw, 1.1rem);
+  font-size: clamp(0.9rem, 1.35vw, 1.05rem);
   font-weight: 600;
   letter-spacing: 0.28em;
   text-transform: uppercase;
   color: var(--gold-300);
-  margin: 0 0 0.85rem;
+  margin: 0 0 0.65rem;
 }
 
 .hero-title {
   margin: 0;
   font-family: var(--font-serif-tc);
-  font-size: clamp(2.35rem, 5.4vw, 4.15rem);
+  font-size: clamp(2.25rem, 5vw, 3.85rem);
   font-weight: 700;
   line-height: 1.22;
   letter-spacing: 0.1em;
@@ -526,18 +526,18 @@ select {
 }
 
 .hero-subtitle {
-  margin: 1.15rem auto 2.2rem;
+  margin: 0.95rem auto 1.7rem;
   max-width: 650px;
-  font-size: clamp(1rem, 1.6vw, 1.16rem);
+  font-size: clamp(0.98rem, 1.5vw, 1.12rem);
   color: rgba(248, 244, 236, 0.88);
   letter-spacing: 0.05em;
 }
 
 /* Countdown Panel */
 .countdown-panel {
-  max-width: 740px;
-  margin: 0 auto 2.3rem;
-  padding: 1.55rem 1.65rem 1.45rem;
+  max-width: 720px;
+  margin: 0 auto 1.75rem;
+  padding: 1.3rem 1.5rem 1.2rem;
   border-radius: var(--radius-lg);
   background: rgba(12, 23, 39, 0.62);
   border: 1px solid rgba(226, 197, 138, 0.36);
