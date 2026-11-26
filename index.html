@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>基督教協同高級中學｜創校六十週年紀念網站（1967–2027）</title>
+  <meta name="description" content="財團法人臺灣省嘉義縣私立協同高級中學創校六十週年紀念專站（1967–2027）。榮神益人一甲子，協力同心迎新頁。收錄 60 週年倒數、校史大事紀、校慶系列活動、協同校歌與校友祝福牆。">
+  <meta property="og:title" content="基督教協同中學創校六十週年紀念網站（1967–2027）">
+  <meta property="og:description" content="榮神益人・一甲子｜協力同心・邁向新頁。誠邀海內外協同人齊聚民雄雙福山，共慶創校六十週年！">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero-campus.jpg">
+  <link rel="icon" type="image/svg+xml" href="assets/images/emblem-60.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳至主要內容</a>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="返回基督教協同中學 60 週年首頁">
+        <img class="brand-emblem" src="assets/images/emblem-60.svg" alt="協同中學 60 週年紀念徽章" width="44" height="44">
+        <span class="brand-text">
+          <span class="brand-name">基督教協同中學</span>
+          <span class="brand-sub">60TH ANNIVERSARY · 1967–2027</span>
+        </span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="主導覽列">
+        <a class="nav-link" href="#ethos">緣起與理念</a>
+        <a class="nav-link" href="#timeline">一甲子校史</a>
+        <a class="nav-link" href="#events">校慶活動</a>
+        <a class="nav-link" href="#anthem">校歌與特色</a>
+        <a class="nav-link" href="#blessings">祝福牆</a>
+        <a class="nav-link" href="#visit">交通聯絡</a>
+        <a class="nav-official-pill" href="https://www.cmsh.cyc.edu.tw/" target="_blank" rel="noopener noreferrer">協同官網 ↗</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="開啟導覽選單" aria-expanded="false" aria-controls="mobile-drawer">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-drawer" id="mobile-drawer" aria-label="行動版導覽列">
+    <a href="#ethos">緣起與理念</a>
+    <a href="#timeline">一甲子校史</a>
+    <a href="#events">校慶活動</a>
+    <a href="#anthem">校歌與特色</a>
+    <a href="#blessings">祝福牆</a>
+    <a href="#visit">交通聯絡</a>
+    <a class="btn btn--gold" href="https://www.cmsh.cyc.edu.tw/" target="_blank" rel="noopener noreferrer">前往協同中學官網 ↗</a>
+  </nav>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero" id="top">
+      <div class="hero-bg" aria-hidden="true">
+        <img src="assets/images/hero-campus.jpg" alt="">
+      </div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-frame" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <div class="hero-crest-wrap">
+          <img class="hero-crest" src="assets/images/emblem-60.svg" alt="基督教協同中學創校六十週年紀念徽章" width="112" height="112">
+        </div>
+        <p class="hero-eyebrow">CONCORDIA MIDDLE &amp; HIGH SCHOOL · 1967 – 2027</p>
+        <h1 class="hero-title">
+          榮神益人・<span class="gold-accent">一甲子</span><br>
+          協力同心・邁向新頁
+        </h1>
+        <p class="hero-subtitle">
+          財團法人臺灣省嘉義縣私立協同高級中學 創校六十週年紀念專站<br>
+          旭日自東，雙福山蔥——誠邀全球協同人重返母校，共慶六十載蒙福歲月
+        </p>
+
+        <!-- Live Countdown -->
+        <div class="countdown-panel" aria-live="polite">
+          <div class="countdown-label">距離創校六十週年紀念日倒數</div>
+          <div class="countdown-grid">
+            <div class="countdown-unit">
+              <span class="countdown-value" id="cd-days">---</span>
+              <span class="countdown-caption">天 DAYS</span>
+            </div>
+            <div class="countdown-unit">
+              <span class="countdown-value" id="cd-hours">--</span>
+              <span class="countdown-caption">時 HOURS</span>
+            </div>
+            <div class="countdown-unit">
+              <span class="countdown-value" id="cd-minutes">--</span>
+              <span class="countdown-caption">分 MINUTES</span>
+            </div>
+            <div class="countdown-unit">
+              <span class="countdown-value" id="cd-seconds">--</span>
+              <span class="countdown-caption">秒 SECONDS</span>
+            </div>
+          </div>
+          <p class="countdown-meta" id="cd-meta">目標日期：2027 年 6 月 26 日（創校六十週年紀念日）</p>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn btn--gold" href="#blessings">留下 60 週年祝福</a>
+          <a class="btn btn--outline-light" href="#timeline">探索一甲子校史</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Heritage Stats Ribbon -->
+    <div class="stats-ribbon" aria-label="協同中學一甲子亮點">
+      <div class="container stats-grid">
+        <div class="stat-item">
+          <div class="stat-num">1967</div>
+          <div class="stat-desc">民國 56 年雙福山創校</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">60 Years</div>
+          <div class="stat-desc">基督教全人教育一甲子</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">Concordia</div>
+          <div class="stat-desc">校訓「協力同心」・方針「榮神益人」</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">i-Least</div>
+          <div class="stat-desc">培育僕人式領袖與國際視野</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 1: Ethos & Principal's Greeting -->
+    <section class="section section--ivory" id="ethos">
+      <div class="container">
+        <header class="section-header reveal">
+          <div class="section-eyebrow">Heritage &amp; Calling</div>
+          <h2 class="section-title">緣起雙福山・一甲子的辦學初心</h2>
+          <p class="section-subtitle">
+            自 1967 年美國基督教密蘇里路德會捐資興建以來，協同中學始終以愛心與理想辦學，陪伴一代又一代學子在信仰、學問與品格中茁壯成長。
+          </p>
+          <div class="ornament-divider" aria-hidden="true">✦</div>
+        </header>
+
+        <div class="pillars-grid reveal">
+          <article class="pillar-card">
+            <span class="pillar-kicker">School Motto</span>
+            <h3 class="pillar-title">校訓・協力同心</h3>
+            <p class="pillar-text">
+              「Concordia」蘊含合一與和諧之意。師生、家長與校友在基督的愛中彼此成全、群策群力，共同追求真理、知識與美善品格。
+            </p>
+          </article>
+
+          <article class="pillar-card">
+            <span class="pillar-kicker">Core Ethos</span>
+            <h3 class="pillar-title">方針・榮神益人</h3>
+            <p class="pillar-text">
+              董事會賦予協同的辦學方針為「榮神益人」——唯有將教育辦得有聲有色、實現全人理想、造就良善人才，方能榮耀上主並造福人群。
+            </p>
+          </article>
+
+          <article class="pillar-card">
+            <span class="pillar-kicker">School Vision</span>
+            <h3 class="pillar-title">願景・僕人式領袖</h3>
+            <p class="pillar-text">
+              以「i-Least 僕人式領袖」為校務發展願景，結合優質外語與雙語國際資源，引領學生成為有信心、有笑容、能替別人著想的領袖人才。
+            </p>
+          </article>
+        </div>
+
+        <!-- Principal's Message -->
+        <article class="principal-card reveal">
+          <div class="principal-verse-box">
+            <span class="principal-badge">校長勉勵・開啟信心之旅</span>
+            <blockquote class="scripture-quote">
+              「你若信，就必看見神的榮耀。」
+            </blockquote>
+            <p class="scripture-ref">—— 約翰福音 11:40 ｜ 希伯來書 11:6</p>
+          </div>
+
+          <div class="principal-body">
+            <h3>信心是開啟神祝福的鑰匙</h3>
+            <p>
+              六十年前，創校先賢齊慕博先生懷抱基督的愛與教育遠見，在民雄雙福山種下希望的種子。六十年後的今天，協同人遍布海內外各行各業，持續將愛、專業與服務精神傳遞到世界各角落。
+            </p>
+            <p>
+              堅定相信神對協同的愛是信實並且存到永遠。迎向創校一甲子的榮耀時刻，誠摯邀請歷屆校友、師長與各界好友重返校園，一同數算恩典、見證協同邁向嶄新的里程碑。
+            </p>
+            <div class="principal-sign">
+              <span class="principal-name">黃淵泰 校長</span>
+              <span class="principal-role">財團法人臺灣省嘉義縣私立協同高級中學 第 8 任校長</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section 2: 60-Year History Timeline -->
+    <section class="section section--parchment" id="timeline">
+      <div class="container">
+        <header class="section-header reveal">
+          <div class="section-eyebrow">Six Decades of Grace · 1967–2027</div>
+          <h2 class="section-title">協同一甲子・校史大事紀</h2>
+          <p class="section-subtitle">
+            從創校初期四班起步到享譽雲嘉的完全中學，循著時間軸重溫協同中學六十年來的關鍵足跡與共同記憶。
+          </p>
+          <div class="ornament-divider" aria-hidden="true">✦</div>
+        </header>
+
+        <div class="filter-bar reveal" role="group" aria-label="篩選校史時期">
+          <button type="button" class="filter-pill is-active" data-era-filter="all" aria-pressed="true">全部時期</button>
+          <button type="button" class="filter-pill" data-era-filter="founding" aria-pressed="false">草創奠基 (1967–1979)</button>
+          <button type="button" class="filter-pill" data-era-filter="growth" aria-pressed="false">深耕茁壯 (1980–2009)</button>
+          <button type="button" class="filter-pill" data-era-filter="global" aria-pressed="false">半世紀里程碑 (2017)</button>
+          <button type="button" class="filter-pill" data-era-filter="anniversary" aria-pressed="false">迎向一甲子 (2020–2027)</button>
+        </div>
+
+        <div class="timeline reveal" id="timeline-list">
+          <!-- Rendered from js/data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: 60th Anniversary Events -->
+    <section class="section section--ivory" id="events">
+      <div class="container">
+        <header class="section-header reveal">
+          <div class="section-eyebrow">Anniversary Celebrations</div>
+          <h2 class="section-title">創校六十週年・系列慶祝活動</h2>
+          <p class="section-subtitle">
+            從感恩禮拜、校史影像特展到全球校友回娘家，邀您將重要時刻加入行事曆，與久違的師長同窗在雙福山重逢。
+          </p>
+          <div class="ornament-divider" aria-hidden="true">✦</div>
+        </header>
+
+        <p class="notice-banner reveal">
+          ※ 以下活動規劃為 60 週年專站展示架構，實際舉辦時間、地點與線上報名入口，請依<a href="https://www.cmsh.cyc.edu.tw/" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">協同中學官方網站</a>最新公告為準（維護者可於 <code>js/data.js</code> 直接更新）。
+        </p>
+
+        <div class="filter-bar reveal" role="group" aria-label="篩選活動類型">
+          <button type="button" class="filter-pill is-active" data-event-filter="all" aria-pressed="true">全部活動</button>
+          <button type="button" class="filter-pill" data-event-filter="worship" aria-pressed="false">感恩禮拜</button>
+          <button type="button" class="filter-pill" data-event-filter="alumni" aria-pressed="false">校友重聚</button>
+          <button type="button" class="filter-pill" data-event-filter="arts" aria-pressed="false">藝文展演</button>
+          <button type="button" class="filter-pill" data-event-filter="celebration" aria-pressed="false">校園慶典</button>
+        </div>
+
+        <div class="events-grid reveal" id="events-grid">
+          <!-- Rendered from js/data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Anthem & Signature Heritage -->
+    <section class="section section--navy" id="anthem">
+      <div class="container">
+        <header class="section-header reveal">
+          <div class="section-eyebrow">School Anthem &amp; Campus Spirit</div>
+          <h2 class="section-title">協同校歌與校園特色</h2>
+          <p class="section-subtitle">
+            一首傳唱六十年的校歌，唱出雙福山晨曦中的信仰根基、科學胸襟與萬邦協同的宏大氣象。
+          </p>
+          <div class="ornament-divider" aria-hidden="true">✦</div>
+        </header>
+
+        <div class="heritage-spread reveal">
+          <div class="heritage-media-card">
+            <div class="heritage-photo">
+              <img src="assets/images/heritage-hall.jpg" alt="協同校園人文書院與午後暖陽意象">
+            </div>
+            <div class="heritage-features">
+              <div class="feature-row">
+                <h4>享譽全國的外語與國際學習環境</h4>
+                <p>結合美籍學者、駐校宣教士、馬禮遜美國學校分校與美國協同大學師生交流，打造沉浸式雙語與跨文化視野。</p>
+              </div>
+              <div class="feature-row">
+                <h4>深耕數十載的適性與拔尖課程</h4>
+                <p>自民國 78 年起推動智優班、科學與文史種子研究所、口譯及英美文學選讀，鼓勵學子深度探索各領域真知。</p>
+              </div>
+              <div class="feature-row">
+                <h4>溫暖動人的聖誕傳愛與生命教育</h4>
+                <p>每年聖誕節校園燈火與聖歌齊揚，更走入安養院、榮民之家與弱勢機構報佳音，將喜樂與關懷化為行動。</p>
+              </div>
+            </div>
+          </div>
+
+          <aside class="anthem-card" aria-label="基督教協同高級中學校歌歌詞">
+            <div class="anthem-label">Concordia School Anthem</div>
+            <h3 class="anthem-title">基督教協同高級中學校歌</h3>
+            <p class="anthem-credits">成崇樁 作詞　｜　許建章 作曲</p>
+            <p class="anthem-lyrics">
+              旭日自東，雙福山蔥，<br>
+              多士偕來，磨琢程功，<br>
+              敬畏耶蘇，智慧不窮，<br>
+              認識至聖，耳目乃聰，<br>
+              倫理民主，泱泱國風，<br>
+              科學效能，地縮天通，<br>
+              求和用中，萬邦協同，<br>
+              求和用中，萬邦協同。
+            </p>
+            <p class="anthem-note">歌詞文字依協同中學官方網站「協同校歌」頁面收錄。</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Alumni Blessing Wall -->
+    <section class="section section--parchment" id="blessings">
+      <div class="container">
+        <header class="section-header reveal">
+          <div class="section-eyebrow">Concordia Voices &amp; Blessings</div>
+          <h2 class="section-title">協同人 60 週年祝福牆</h2>
+          <p class="section-subtitle">
+            無論您身在台灣或海外，歡迎留下給母校六十歲生日的祝福、一段難忘的雙福山回憶，或想對恩師同窗說的話。
+          </p>
+          <div class="ornament-divider" aria-hidden="true">✦</div>
+        </header>
+
+        <div class="blessing-layout reveal">
+          <div class="blessing-form-card">
+            <h3>寫下您的 60 週年祝福</h3>
+            <p class="blessing-form-hint">
+              送出後將即時顯示於右側祝福牆並保留於您的瀏覽器中；若校方希望開放全球同步留言，可於 GitHub 串接 Google 表單或 GitHub Discussions。
+            </p>
+            <form id="blessing-form" novalidate>
+              <div class="form-field">
+                <label for="blessing-author">您的姓名或稱呼 *</label>
+                <input id="blessing-author" name="author" type="text" placeholder="例如：王小明" maxlength="30" required>
+              </div>
+
+              <div class="form-field">
+                <label for="blessing-identity">您的身分</label>
+                <select id="blessing-identity" name="identity">
+                  <option value="協同校友">協同校友</option>
+                  <option value="在校學生">在校學生</option>
+                  <option value="現任／退休師長">現任／退休師長</option>
+                  <option value="學生家長">學生家長</option>
+                  <option value="教會與各界友人">教會與各界友人</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="blessing-cohort">屆別、班級或所在城市（選填）</label>
+                <input id="blessing-cohort" name="cohort" type="text" placeholder="例如：第 42 屆・嘉義 / 美國加州" maxlength="36">
+              </div>
+
+              <div class="form-field">
+                <label for="blessing-message">給協同 60 週年的祝福 *</label>
+                <textarea id="blessing-message" name="message" placeholder="寫下您對母校的祝福或青春回憶…" maxlength="300" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--navy" style="width: 100%;">張貼祝福至紀念牆</button>
+              <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+
+          <div class="blessings-grid" id="blessings-grid" aria-live="polite">
+            <!-- Rendered from js/data.js + localStorage -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Campus Visit & Official Info -->
+    <section class="section section--ivory" id="visit">
+      <div class="container">
+        <header class="section-header reveal">
+          <div class="section-eyebrow">Visit Concordia</div>
+          <h2 class="section-title">交通資訊與官方聯絡管道</h2>
+          <p class="section-subtitle">
+            歡迎返校重遊嘉義縣民雄鄉雙福山校園，各項校務與校慶正式消息請參閱學校官方網站。
+          </p>
+          <div class="ornament-divider" aria-hidden="true">✦</div>
+        </header>
+
+        <div class="visit-grid reveal">
+          <div class="visit-card">
+            <h3>學校基本資訊</h3>
+            <ul class="info-list">
+              <li>
+                <span class="info-key">學校全名</span>
+                <span class="info-val">財團法人臺灣省嘉義縣私立協同高級中學<br><small style="color: var(--ink-500);">Concordia Middle &amp; High School</small></span>
+              </li>
+              <li>
+                <span class="info-key">學校地址</span>
+                <span class="info-val">621015 嘉義縣民雄鄉建國路二段 31 號（省道台 1 線旁・雙福山）</span>
+              </li>
+              <li>
+                <span class="info-key">聯絡電話</span>
+                <span class="info-val"><a href="tel:+88652213045">(05) 221-3045</a></span>
+              </li>
+              <li>
+                <span class="info-key">傳真號碼</span>
+                <span class="info-val">(05) 220-3852</span>
+              </li>
+              <li>
+                <span class="info-key">交通方式</span>
+                <span class="info-val">國道一號民雄交流道或嘉義交流道銜接台 1 線建國路二段；亦可搭乘台鐵至民雄站或嘉義站轉乘公車／計程車抵達。</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="visit-card">
+            <h3>官方網站與常用連結</h3>
+            <div class="quick-links">
+              <a class="resource-link" href="https://www.cmsh.cyc.edu.tw/" target="_blank" rel="noopener noreferrer">
+                <div>
+                  <strong>基督教協同中學官方網站</strong>
+                  <span>www.cmsh.cyc.edu.tw 最新公告與校務資訊</span>
+                </div>
+                <span class="resource-arrow" aria-hidden="true">↗</span>
+              </a>
+
+              <a class="resource-link" href="https://www.cmsh.cyc.edu.tw/category/thirdparty/third_alumni" target="_blank" rel="noopener noreferrer">
+                <div>
+                  <strong>協同校友會專區</strong>
+                  <span>校友聯繫、活動消息與返校資訊</span>
+                </div>
+                <span class="resource-arrow" aria-hidden="true">↗</span>
+              </a>
+
+              <a class="resource-link" href="https://www.cmsh.cyc.edu.tw/category/about" target="_blank" rel="noopener noreferrer">
+                <div>
+                  <strong>認識協同與校園導覽</strong>
+                  <span>辦學理念、校園特色、交通示意圖</span>
+                </div>
+                <span class="resource-arrow" aria-hidden="true">↗</span>
+              </a>
+
+              <a class="resource-link" href="https://www.google.com/maps/search/?api=1&query=%E5%98%89%E7%BE%A9%E7%B8%A3%E6%B0%91%E9%9B%84%E9%84%89%E5%BB%BA%E5%9C%8B%E8%B7%AF%E4%BA%8C%E6%AE%B531%E8%99%9F" target="_blank" rel="noopener noreferrer">
+                <div>
+                  <strong>Google 地圖導航</strong>
+                  <span>嘉義縣民雄鄉建國路二段 31 號</span>
+                </div>
+                <span class="resource-arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="assets/images/emblem-60.svg" alt="協同中學 60 週年紀念徽章" width="54" height="54">
+          <div>
+            <h4>基督教協同高級中學 創校六十週年紀念專站</h4>
+            <p>Concordia Middle &amp; High School · 60th Anniversary (1967–2027) · 協力同心・榮神益人</p>
+          </div>
+        </div>
+        <a class="btn btn--outline-light" href="#top">回到頂端 ↑</a>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026–2027 基督教協同中學 60 週年紀念專案（Hosted on GitHub Pages）</span>
+        <span>官方資訊請參閱 <a href="https://www.cmsh.cyc.edu.tw/" target="_blank" rel="noopener noreferrer">www.cmsh.cyc.edu.tw</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script defer src="js/data.js"></script>
+  <script defer src="js/main.js"></script>
+</body>
+</html>
